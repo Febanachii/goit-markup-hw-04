@@ -520,9 +520,52 @@ width: calc((100% - 72px) / 4);
 
 .name-div-sectiones{
  padding: 32px 16px;
-padding-top: 32px;
+ padding: 32px 0;
+
+
     
 }
+
+.un-soc-link-section-index{
+    display: flex; 
+    justify-content: center;
+    gap: 24px;
+
+}
+
+
+.list-soc-link-sectione-index{
+    width: 40px;
+     height: 40px;
+     list-style: none;
+
+}
+
+
+.link-soc-index-team{
+    width: 100%;
+    height: 100%;
+    background-color: var(--title-color);
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.link-soc-index-team:hover{
+    background-color: #404bbf;
+}
+
+.link-soc-index-team:focus{
+    background-color: #404bbf; 
+}
+
+.icons-positione-index-team{
+     fill: var(--secondary-color);
+
+}
+
 
 .what-are-we-doing{
     margin-bottom: 72px;
