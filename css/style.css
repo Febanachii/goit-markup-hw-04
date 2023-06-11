@@ -563,18 +563,7 @@ padding-top: 32px;
 
 
 
-.soc-positione{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--background-color);
-    margin-bottom: 16px;
-     display: flex;
-     align-items: baseline;
-     
 
-}
 
 .un-soc{
     display: flex;
@@ -602,9 +591,7 @@ padding-top: 32px;
 
 
 .soc-link-icons{
-    fill:#f4f4fd;
-
-
+    fill: var(--secondary-color);
 }
 
 
@@ -646,5 +633,19 @@ font-weight: 800;
 
 }
 
+.logo-paragraph{
+     margin-right: 120px;
 
+}
    
+.paragraph-soc-footer{
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+    margin-bottom: 16px;
+     display: flex;
+     align-items: baseline;
+     
+}
