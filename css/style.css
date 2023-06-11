@@ -291,6 +291,7 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    
 
 }
 
@@ -335,15 +336,7 @@ text-decoration: none;
 
 }
 
-.text-all-points{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    margin: 0;
 
-
-}
 
 .underlist{
     gap: 24px;
@@ -444,6 +437,17 @@ margin-bottom: 8px;
     background-color:var(--color-header);
 }
 
+.text-all-points {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+    margin: 0;
+
+}
+
+
 .all-points{
     font-weight: 500;
     font-size: 20px;
@@ -531,6 +535,7 @@ width: calc((100% - 72px) / 4);
     justify-content: center;
     gap: 24px;
     padding-left: 0;
+    
     
 
 }
