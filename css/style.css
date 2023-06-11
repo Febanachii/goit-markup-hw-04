@@ -202,6 +202,7 @@ background: var(--color-header);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    
 
 }
 
@@ -233,8 +234,10 @@ background: var(--color-header);
 }
 
 .list-images-style{
-    width: calc((100% - 48px) / 3);
+    width: 1158рх;
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -457,8 +460,7 @@ margin-bottom: 8px;
 
 .section-style-our-adv-icon{
     display: inline-block;
-    width: 1em;
-    height: 1em;
+   
     stroke-width: 0;
     
 }
@@ -568,7 +570,9 @@ padding-top: 32px;
     letter-spacing: 0.02em;
     color: var(--background-color);
     margin-bottom: 16px;
-    
+     display: flex;
+     align-items: baseline;
+     
 
 }
 
@@ -581,6 +585,7 @@ padding-top: 32px;
 .soc-itfl{
     width: 40px;
     height: 40px;
+    list-style: none;
 
 }
 
