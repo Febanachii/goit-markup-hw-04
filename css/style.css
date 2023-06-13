@@ -663,13 +663,17 @@ width: calc((100% - 72px) / 4);
 .un-clients-customers{
     display: flex;
     gap: 24px;
+    margin: 0;
+        padding: 0;
 
 }
 
 .list-customers{
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 120px)/6);
     height: 88px;
     list-style: none;
+    
+
 
 }
 
@@ -687,13 +691,13 @@ width: calc((100% - 72px) / 4);
 }
 
 .link-customers:hover{
-    border-color: #404bbf;
-    color: #404bbf;
+    border-color:#404bbf;
+    color:#404bbf;
 }
 
 .link-customers:focus{
-    border-color: #404bbf;
-    color: #404bbf;
+    border-color:#404bbf;
+    color:#404bbf;
 }
 
 
