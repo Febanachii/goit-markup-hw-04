@@ -702,7 +702,9 @@ width: calc((100% - 72px) / 4);
 /*-----------------------------footer--------------------------*/
 
 
-
+.footer-container{
+    display: flex;
+}
 
 .positione-footer-wb{
     background-color:var(--accent-color);
@@ -721,7 +723,7 @@ width: calc((100% - 72px) / 4);
 
 
 .soc-positione{
-    display: flex;
+   
     align-items: baseline;
 
 }
