@@ -149,7 +149,7 @@ margin: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-color);
-   
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -869,16 +869,16 @@ font-weight: 800;
 
 }
 
-.button-modal-close:hover{
+.button-modal-close-style:hover{
     background-color: #404bbf;
     border: none;
-    fill: #ffffff
+    
 }
 
-.button-modal-close:focus{
+.button-modal-close-style:focus{
     background-color: #404bbf;
         border: none;
-        fill: #ffffff
+        
 }
 
 
