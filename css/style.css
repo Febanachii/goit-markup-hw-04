@@ -664,7 +664,7 @@ width: calc((100% - 72px) / 4);
     display: flex;
     gap: 24px;
     margin: 0;
-        padding: 0;
+    padding: 0;
 
 }
 
@@ -701,6 +701,9 @@ width: calc((100% - 72px) / 4);
 }
 
 
+.icons-customers{
+    fill: currentColor;
+}
 
 
 /*-----------------------------footer--------------------------*/
