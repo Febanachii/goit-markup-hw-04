@@ -704,6 +704,7 @@ width: calc((100% - 72px) / 4);
 
 .footer-container{
     display: flex;
+    align-items: baseline;
 }
 
 .positione-footer-wb{
