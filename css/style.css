@@ -715,7 +715,11 @@ width: calc((100% - 72px) / 4);
 }
 
 
-
+.soc-positione{
+    display: flex;
+    align-items: baseline;
+    
+}
 
 
 .un-soc{
