@@ -6,6 +6,7 @@
  --background-color:#FFFFFF;
  --color-header: #404bbf;
  --customers-color: #8e8f99;
+ --current:#404bbf;
 
 }
 .link{
@@ -90,7 +91,7 @@ font-family: "Raleway", sans-serif;
 
 
 .points-li-header::after{
-    content: Studio;
+    content: var(--current);
     position: absolute;
     left: 0;
     bottom: -1px;
